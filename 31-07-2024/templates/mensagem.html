@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Mensagem</title>
+</head>
+<body>
+    <h1>Adicionar Mensagem</h1>
+
+    <form action=" {{url_for('mural')}}" methods="post">
+        <input type="text" name="name" id="name" placeholder="Nome">
+        <input type="text" name="message" placeholder="Mensagem">
+        <input type="submit" >
+    </form>
+</body>
+</html>
