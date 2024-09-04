@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Cookes</title>
+</head>
+<body>
+    
+    <h1>Comer biscoitos</h1>
+
+    <form action="{{ url_for('color') }}" method="get">
+        <select name="color">
+            <option value="red">Encarnado</option>
+            <option value="green">Verde</option>
+            <option value="greenyellow">Verde luzinha</option>
+            <option value="pink">Rosa</option>
+            <input type="submit" value="Enviar">
+        </select>
+    </form>
+</body>
+</html>
